@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #e2f3ff;
     padding: 1rem 0;
+    height: 100vh;
 }
 
 nav {
@@ -42,6 +43,14 @@ nav {
     margin-top: 3rem;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.hero {
+    height: 100%;
+    background-image: url("../assets/image-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero img {
