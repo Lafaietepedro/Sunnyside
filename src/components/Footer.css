@@ -1,0 +1,34 @@
+.footer {
+    background-color: #e2f3ff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icons img {
+    width: 24px;
+}
