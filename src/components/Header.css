@@ -1,8 +1,9 @@
 .header {
     text-align: center;
-    background-color: #e2f3ff;
-    padding: 1rem 0;
+    padding: 1.5rem 1rem;
     height: 100vh;
+    background-color: #3dbeff;
+    margin-bottom: 25px;
 }
 
 nav {
@@ -12,9 +13,14 @@ nav {
     padding: 0 2rem;
 }
 
+nav h1, nav ul {
+    font-family: 'Barlow';
+}
+
 .logo {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    color: #fbfeff;
 }
 
 .menu {
@@ -25,11 +31,16 @@ nav {
 
 .menu a {
     text-decoration: none;
-    color: #000;
+    color: #fbfeff;
     font-weight: 500;
+    font-size: 20px;
 }
 
 .contact-btn {
+    font-size: 1.1rem;
+    font-family: 'Fraunces';
+    width: 7.5vw;
+    height: 5vh;
     padding: 0.5rem 1rem;
     border: none;
     background-color: #fff;
@@ -39,14 +50,19 @@ nav {
 }
 
 .hero h2 {
-    font-size: 2rem;
+    color: #fbfeff;
+    font-size: 7rem;
     margin-top: 3rem;
-    font-weight: bold;
+    font-style: normal;
     letter-spacing: 2px;
 }
 
 .hero {
+    padding-top: 200px;
     height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
     background-image: url("../assets/image-header.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -54,5 +70,5 @@ nav {
 }
 
 .hero img {
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }

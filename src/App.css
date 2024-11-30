@@ -4,3 +4,12 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+h1, h2, h3 {
+    font-family: 'Fraunces';
+}
+
+p {
+    font-family: 'Barlow';
+    /* font-weight: bold; */
+}
