@@ -1,0 +1,32 @@
+.projects {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.projeto1 {
+	grid-area: 1/1/2/2;
+	background-image: url('../assets/image-gallery-milkbottles.jpg');
+}
+.projeto2 {
+	grid-area: 1/2/2/3;
+	background-image: url('../assets/image-gallery-orange.jpg');
+}
+.projeto3 {
+	grid-area: 1/3/2/4;
+	background-image: url('../assets/image-gallery-cone.jpg');
+}
+.projeto4 {
+	grid-area: 1/4/2/5;
+	background-image: url('../assets/image-gallery-sugarcubes.jpg');
+}
+
+.projeto1, .projeto2, .projeto3, .projeto4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+}

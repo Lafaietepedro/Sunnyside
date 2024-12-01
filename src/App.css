@@ -5,11 +5,21 @@
     scroll-behavior: smooth;
 }
 
-h1, h2, h3 {
+body {
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
     font-family: 'Fraunces';
 }
 
-p {
+p, span {
     font-family: 'Barlow';
     /* font-weight: bold; */
+}
+
+@media (max-width: 375px) {
+    .App {
+        width: 150vw;
+    }
 }

@@ -1,5 +1,9 @@
 /* HEADER RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 375px) {
+    header {
+        width: 100rem;
+    }
+
     nav {
         flex-direction: column;
         gap: 1rem;
@@ -28,7 +32,7 @@
 }
 
 /* SERVICES RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .services {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, auto);
@@ -61,7 +65,7 @@
 }
 
 /* TESTIMONIALS RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .testimonials {
         height: auto;
         padding: 1rem;
@@ -84,7 +88,7 @@
 }
 
 /* FOOTER RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .footer-menu {
         flex-direction: column;
         gap: 1rem;

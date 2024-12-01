@@ -1,6 +1,6 @@
 .header {
     text-align: center;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0;
     height: 100vh;
     background-color: #3dbeff;
     margin-bottom: 25px;
@@ -34,6 +34,12 @@ nav h1, nav ul {
     color: #fbfeff;
     font-weight: 500;
     font-size: 20px;
+    opacity: .8;
+}
+
+.menu a:hover {
+    opacity: 1;
+    font-size: 22px;
 }
 
 .contact-btn {
@@ -47,6 +53,11 @@ nav h1, nav ul {
     border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
+}
+
+.contact-btn:hover {
+    color: #fff;
+    background-color: #6ecefe;
 }
 
 .hero h2 {
@@ -71,4 +82,23 @@ nav h1, nav ul {
 
 .hero img {
     margin-top: 1.2rem;
+}
+
+@media (max-width: 375px) {
+    .menu {
+        display: none;
+    }
+
+    .hero h2 {
+        font-size: 4rem;
+    }
+
+    .hero{
+        height: 91vh;
+        width: 100%;
+    }
+
+    nav {
+        width: 32rem;
+    }
 }

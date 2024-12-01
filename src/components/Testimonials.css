@@ -2,13 +2,14 @@
     padding: 2rem;
     background-color: #fff;
     text-align: center;
-    height: 40vh;
-    margin-top: 750px;
+    height: 60vh;
 }
 
 .testimonials h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 6rem;
+    letter-spacing: 10px;
+    color: #a8a9ab;
 }
 
 .testimonial-cards {
@@ -25,31 +26,32 @@
     justify-content: center;
     padding: 1rem;
     border-radius: 8px;
-    width: 33vw;
+    width: 27.5vw;
     height: 30vh;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .card p {
     width: 20vw;
     font-size: 1.1rem;
-    font-weight: bold;
-    color: #555;
+    color: #808184;
     margin-top: 30px;
     line-height: 25px;
 }
 
 .card h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 1rem;
     font-weight: bold;
 }
 
 .card span {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: #999;
+    font-weight: bold;
+    margin-top: .5rem;
 }
 
 .card img {
+    width: 4vw;
     border-radius: 100%;
 }
