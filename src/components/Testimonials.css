@@ -55,3 +55,39 @@
     width: 4vw;
     border-radius: 100%;
 }
+
+@media (max-width: 375px) {
+    .testimonials {
+        height: 100%;
+    }
+
+    .testimonial-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 120px;
+    }
+
+    .card img {
+        width: 30vw;
+    }
+
+    .card p {
+        font-size: 1.2rem;
+        letter-spacing: .09rem;
+    }
+
+    .card h4 {
+        font-size: 1.6rem;
+    }
+
+    .card span {
+        font-size: 1.2rem;
+    }
+
+    .card h4, .card p, .card span {
+        width: 90vw;
+    }
+}
